@@ -7,6 +7,7 @@ import Consultorio from "@/components/Consultorio"
 import Agendamento from "@/components/Agendamento"
 import Footer from "@/components/Footer"
 import WhatsAppButton from "@/components/WhatsAppButton"
+import Tecnicas from "@/components/Tecnicas"
 
 const Index = () => (
   <>
@@ -14,6 +15,7 @@ const Index = () => (
     <Hero />
     <SobreMim />
     <Especialidades />
+    <Tecnicas />
     <Blog />
     <Consultorio />
     <Agendamento />

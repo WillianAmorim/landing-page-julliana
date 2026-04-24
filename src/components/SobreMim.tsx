@@ -45,10 +45,8 @@ const SobreMim = () => (
           <p className="leading-relaxed text-muted-foreground">
             Sou a{" "}
             <strong className="text-foreground">Julliana Borges</strong>,
-            fonoaudióloga apaixonada por ajudar crianças a se comunicarem com
-            confiança. Há mais de 10 anos atuo na área de fala e linguagem
-            infantil, acompanhando famílias em todo o processo de
-            desenvolvimento comunicativo.
+              fonoaudióloga há 8 anos e completamente apaixonada pelo que faço. 
+              Sempre busquei me aprofundar na área para oferecer o melhor para meus pacientes e suas famílias. Algumas formações marcaram muito minha trajetória, como PROMPT, com Gabriela Sanchez, clínica de fala, DTTC básico e avançado com a própria idealizadora Edythe Strand, além da pós-graduação em Comunicação Almentativa e estudos em fotobiomodulação.
           </p>
           <p className="leading-relaxed text-muted-foreground">
             Minha abordagem é centrada na criança e na família: acredito que o
@@ -56,16 +54,16 @@ const SobreMim = () => (
             Utilizo métodos lúdicos e baseados em evidências científicas para
             tornar cada sessão produtiva e prazerosa.
           </p>
-          <p className="leading-relaxed text-muted-foreground">
+          {/* <p className="leading-relaxed text-muted-foreground">
             Além da clínica, atuo como supervisora de estágio e participo de
             congressos nacionais, mantendo-me sempre atualizada com as melhores
             práticas da fonoaudiologia.
-          </p>
+          </p> */}
 
           <div className="grid grid-cols-3 gap-4 pt-4">
             <div className="rounded-xl bg-card p-4 text-center shadow-sm">
               <p className="font-heading text-2xl font-extrabold text-primary">
-                +10
+                +8
               </p>
               <p className="mt-1 text-xs text-muted-foreground">
                 Anos de experiência
