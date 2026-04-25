@@ -13,15 +13,35 @@ const Agendamento = () => {
     e.preventDefault();
     setLoading(true);
 
-    // Simulate submission
-    setTimeout(() => {
-      setLoading(false);
-      toast({
-        title: "Solicitação enviada!",
-        description: "Entraremos em contato em breve para confirmar seu horário.",
-      });
-      (e.target as HTMLFormElement).reset();
-    }, 1000);
+    const formData = new FormData(e.currentTarget);
+
+    const name = formData.get("name");
+    const email = formData.get("email");
+    const phone = formData.get("phone");
+    const complaint = formData.get("complaint");
+
+    const message = `
+      Olá! Gostaria de fazer um pré-agendamento.
+
+      Nome: ${name}
+      E-mail: ${email}
+      Telefone: ${phone}
+      Queixa principal: ${complaint}
+    `;
+
+    const whatsappNumber = "5598982217849";
+    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+
+    window.open(whatsappUrl, "_blank");
+
+    setLoading(false);
+
+    toast({
+      title: "Abrindo WhatsApp!",
+      description: "Confira a mensagem antes de enviar.",
+    });
+
+    e.currentTarget.reset();
   };
 
   return (

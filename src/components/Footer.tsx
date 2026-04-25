@@ -15,10 +15,11 @@ const Footer = () => (
           <p className="mb-3 text-sm font-semibold text-background">Contato</p>
           <div className="space-y-2 text-sm">
             <div className="flex items-center gap-2">
-              <Phone className="h-4 w-4" /> (11) 99999-9999
+              <Phone className="h-4 w-4" /> (98) 98221-7849
+              <Phone className="h-4 w-4" /> (62) 99394-6156
             </div>
             <div className="flex items-center gap-2">
-              <Mail className="h-4 w-4" /> contato@carolinafono.com.br
+              <Mail className="h-4 w-4" /> grupoinput23@gmail.com
             </div>
           </div>
         </div>

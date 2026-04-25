@@ -16,7 +16,7 @@ const Index = () => (
     <SobreMim />
     <Especialidades />
     <Tecnicas />
-    <Blog />
+    {/* <Blog /> */}
     <Consultorio />
     <Agendamento />
     <Footer />

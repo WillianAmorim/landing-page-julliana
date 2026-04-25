@@ -60,7 +60,12 @@ const Header = () => {
             >
               <Instagram className="h-5 w-5 text-foreground/60 transition-colors hover:text-primary" />
             </a>
-            <a href="tel:+5511999999999" aria-label="Telefone">
+            <a 
+              href="https://wa.me/5598982217849" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              aria-label="WhatsApp"
+            >
               <Phone className="h-5 w-5 text-foreground/60 transition-colors hover:text-primary" />
             </a>
           </div>

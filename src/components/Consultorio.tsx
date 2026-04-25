@@ -1,9 +1,9 @@
 import { MapPin, Phone, Clock } from "lucide-react";
 // import consultorio1 from "@/assets/consultorio-1.jpg";
-import consultorio1 from "@/assets/clinica01melhorada.png";
-import consultorio2 from "@/assets/consultorio-2.jpg";
-import consultorio3 from "@/assets/consultorio-3.jpg";
-import consultorio4 from "@/assets/consultorio-4.jpg";
+import consultorio1 from "@/assets/sessao1.png";
+import consultorio2 from "@/assets/sessao2.png";
+import consultorio3 from "@/assets/sessao3.png";
+import consultorio4 from "@/assets/sessao4.png";
 
 const fotos = [
   { src: consultorio1, alt: "Sala de espera acolhedora com paredes azul claro" },
@@ -57,6 +57,8 @@ const Consultorio = () => (
               <div>
                 <p className="font-semibold text-foreground text-sm">Telefone</p>
                 <p className="text-sm text-muted-foreground">(98) 982217849</p>
+                <p className="text-sm text-muted-foreground">(62) 993946156</p>
+                {/* <Phone className="h-4 w-4" /> (62) 99394-6156 */}
               </div>
             </div>
             <div className="flex items-start gap-3">
