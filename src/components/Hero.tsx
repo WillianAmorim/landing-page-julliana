@@ -31,11 +31,15 @@ const Hero = () => {
           <div className="order-1 md:order-2 animate-fade-in-delay-1">
             <p className="text-primary font-semibold text-sm uppercase tracking-widest mb-3">Fonoaudióloga</p>
             <h1 className="font-heading text-4xl md:text-5xl lg:text-6xl font-extrabold text-foreground leading-tight mb-4">
-              Dra. Julliana Borges<br />Mendes
+              Dra. Julliana Borges<br />
             </h1>
-            <p className="text-lg text-muted-foreground mb-2 font-medium">CRFa 2-12345</p>
+            <p className="text-lg text-muted-foreground mb-2 font-medium">CRFa 8-12127</p>
             <p className="text-muted-foreground leading-relaxed mb-8 max-w-lg">
-              Especialista em fala e linguagem infantil, com mais de 10 anos de experiência ajudando crianças a se comunicarem com confiança. Formada pela USP, com especialização em Linguagem pelo CFFa.
+              Possui graduação em Curso de Bacharelado em Fonoaudiologia pela Universidade Ceuma (2018), Pós Graduação em Distúrbios de Fala e Linguagem pela Universidade Unyleya (2019).
+              <br />
+              Formação Avançada em Terapia Comportamental no Autismo (2020). Formação no Método Prompt Bridging (2023), Core Words (2023), Escala de avaliação Bayley III (2023), Fotobiomodulação (2022), Comunicação Alternativa e Aumentativa PECS (2021), Eletrofonoterapia (2020).
+              <br />
+              Atua em consultório na Reabilitação de Transtornos do desenvolvimento infantil; alimentares; motores de fala, comportamentais e Neuroreabilitação (disfagia e motricidade orofacial)
             </p>
             <div className="flex flex-wrap gap-4">
               <Button size="lg" className="rounded-full px-8 font-semibold" onClick={() => scrollTo("#contato")}>

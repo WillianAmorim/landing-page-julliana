@@ -8,7 +8,7 @@ const Footer = () => (
           <p className="mb-2 font-heading text-lg font-bold text-background">
             Julliana Borges
           </p>
-          <p className="text-sm">CRFa 2-12345</p>
+          <p className="text-sm">CRFa 8-12127</p>
           <p className="mt-1 text-sm">Fonoaudióloga — Fala e Linguagem</p>
         </div>
         <div>

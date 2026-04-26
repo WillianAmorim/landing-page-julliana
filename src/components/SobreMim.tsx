@@ -4,26 +4,26 @@ const timeline = [
   {
     icon: GraduationCap,
     title: "Graduação em Fonoaudiologia",
-    place: "Universidade de São Paulo (USP)",
-    year: "2012",
+    place: "Universidade Ceuma, UNICEUMA, Brasil.",
+    year: "2018",
   },
   {
     icon: Award,
-    title: "Especialização em Linguagem",
-    place: "Conselho Federal de Fonoaudiologia (CFFa)",
-    year: "2014",
+    title: "Especialização em andamento em Distúrbios de Fala e Linguagem",
+    place: "UNYLEYA EDITORA E CURSOS S/A, Unyleya, Brasil",
+    year: "2018",
   },
   {
     icon: Briefcase,
-    title: "Mestrado em Distúrbios da Comunicação",
-    place: "PUC-SP",
-    year: "2017",
+    title: "PROMPT - Avaliação e Planejamento Terapêutico. (Carga horária: 10h)",
+    place: "Focus Cursos, FOCUS, Brasil",
+    year: "2022",
   },
   {
     icon: Heart,
-    title: "Curso de Aperfeiçoamento em TEA",
-    place: "Instituto de Psiquiatria — FMUSP",
-    year: "2020",
+    title: "Curso teórico e prático em Apraxia de Fala na Infância (AFI)- Drª. Strand. (Carga horária: 18h)",
+    place: "Sociedade Brasileira de Fonoaudiologia, SBFa, Brasil",
+    year: "2024",
   },
 ]
 
