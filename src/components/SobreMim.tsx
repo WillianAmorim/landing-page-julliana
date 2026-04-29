@@ -15,13 +15,13 @@ const timeline = [
   },
   {
     icon: Briefcase,
-    title: "La Ponte PROMPT BRIDGING. (Carga horária: 18h)",
+    title: "La Ponte PROMPT BRIDGING.",
     place: "Prompt Institute, PROMPT, Estados Unidos",
     year: "2023",
   },
   {
     icon: Heart,
-    title: "Curso on-line DTTC - teoria e prática. (Carga horária: 3h)",
+    title: "Curso on-line DTTC - teoria e prática.",
     place: "Abrapraxia, ABRAPRAXIA, Brasil",
     year: "2024",
   },
