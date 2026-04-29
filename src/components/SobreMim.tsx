@@ -15,14 +15,14 @@ const timeline = [
   },
   {
     icon: Briefcase,
-    title: "PROMPT - Avaliação e Planejamento Terapêutico. (Carga horária: 10h)",
-    place: "Focus Cursos, FOCUS, Brasil",
-    year: "2022",
+    title: "La Ponte PROMPT BRIDGING. (Carga horária: 18h)",
+    place: "Prompt Institute, PROMPT, Estados Unidos",
+    year: "2023",
   },
   {
     icon: Heart,
-    title: "Curso teórico e prático em Apraxia de Fala na Infância (AFI)- Drª. Strand. (Carga horária: 18h)",
-    place: "Sociedade Brasileira de Fonoaudiologia, SBFa, Brasil",
+    title: "Curso on-line DTTC - teoria e prática. (Carga horária: 3h)",
+    place: "Abrapraxia, ABRAPRAXIA, Brasil",
     year: "2024",
   },
 ]
