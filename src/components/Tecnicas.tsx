@@ -1,7 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import tecPrompt from "@/assets/tec-prompt.jpg";
 import tecDttc from "@/assets/tec-dttc.jpg";
-import tecCaa from "@/assets/tec-caa.jpg";
+import tecCaa from "@/assets/transtorno motor de fala.jpeg";
 import tecRest from "@/assets/tec-rest.jpg";
 import tecLsvt from "@/assets/tec-lsvt.jpg";
 

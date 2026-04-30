@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { MessageCircle } from "lucide-react"
-import ImageJuliana from '../assets/juliana-melhorada.png'
+import ImageJuliana from '../assets/foto-principal.jpeg'
 
 const Hero = () => {
   const scrollTo = (id: string) =>
@@ -34,13 +34,22 @@ const Hero = () => {
               Dra. Julliana Borges<br />
             </h1>
             <p className="text-lg text-muted-foreground mb-2 font-medium">CRFa 8-12127</p>
-            <p className="text-muted-foreground leading-relaxed mb-8 max-w-lg">
-              Possui graduação em Curso de Bacharelado em Fonoaudiologia pela Universidade Ceuma (2018), Pós Graduação em Distúrbios de Fala e Linguagem pela Universidade Unyleya (2019).
+            <div className="text-muted-foreground leading-relaxed mb-8 max-w-lg">
+              Seu filho…
               <br />
-              Formação Avançada em Terapia Comportamental no Autismo (2020). Formação no Método Prompt Bridging (2023), Core Words (2023), Escala de avaliação Bayley III (2023), Fotobiomodulação (2022), Comunicação Alternativa e Aumentativa PECS (2021), Eletrofonoterapia (2020).
-              <br />
-              Atua em consultório na Reabilitação de Transtornos do desenvolvimento infantil; alimentares; motores de fala, comportamentais e Neuroreabilitação (disfagia e motricidade orofacial)
-            </p>
+              <ul>
+                <li>* fala poucas palavras para a idade?</li>
+                <li>* é difícil de entender, mesmo para você?</li>
+                <li>* prefere apontar ao invés de falar?</li>
+                <li>* parece saber o que quer, mas não consegue se expressar?</li>
+                <li>* fala a mesma palavra de formas diferentes?</li>
+                <li>* demonstra esforço para tentar falar?</li>
+              </ul>
+                <br />
+                <p>Esses podem ser sinais de alerta no desenvolvimento da fala e linguagem, incluindo atrasos ou apraxia de fala na infância.</p>
+                <br />
+                <p>Quanto antes investigar, melhores são os resultados e o prognóstico.</p>
+            </div>
             <div className="flex flex-wrap gap-4">
               <Button size="lg" className="rounded-full px-8 font-semibold" onClick={() => scrollTo("#contato")}>
                 Agendar consulta
